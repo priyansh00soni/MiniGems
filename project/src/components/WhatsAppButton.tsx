@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 const WhatsAppButton = () => {
-  const phoneNumber = '+1234567890';
+  const phoneNumber = '+919713660450';
   const message = 'Hello, I would like to know more about your coaching classes.';
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
