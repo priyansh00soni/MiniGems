@@ -8,7 +8,7 @@ const Footer = () => {
           /* Button and star animation from Uiverse.io by MuhammadHasann */
           .shiny-button {
             position: relative;
-            padding:5px 10px 5px 10px;
+            padding: 5px 10px;
             background: #1E3A8A;
             font-size: 17px;
             font-weight: 500;
@@ -25,8 +25,7 @@ const Footer = () => {
             background: black;
             color: #ffffff;
             box-shadow: 0 0 25px #ffffff;
-            scale:1.3;
-            
+            scale: 1.3;
           }
 
           .star {
@@ -70,7 +69,6 @@ const Footer = () => {
                 <Phone className="h-10 w-10 mr-2" />
                 <div className="flex flex-col underline">
                   <a href="tel:+919713660450">+91 97136 60450</a>
-                  
                   <a href="tel:+919229441706">+91 92294 41706</a>
                 </div>
               </div>
@@ -88,21 +86,19 @@ const Footer = () => {
             <h3 className="text-2xl text-[#1E3A8A] font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2 text-lg">
               <li>
-                <a href="/about" className="w-fit hover:text-blue-400 transition-colors duration-300">
-                  <pre className="font-sans">      About</pre>
+                <a href="/about" className="inline-block ml-4 hover:text-blue-400 transition-colors duration-300">
+                  About
                 </a>
               </li>
-             
               <li>
-                <a href="/appointment" className="hover:text-blue-400 transition-colors duration-300">
-                  <pre className="font-sans">      Contact</pre>
+                <a href="/appointment" className="inline-block ml-4 hover:text-blue-400 transition-colors duration-300">
+                  Contact
                 </a>
               </li>
             </ul>
           </div>
         </div>
-
-        
+      </div>
     </footer>
   );
 };
