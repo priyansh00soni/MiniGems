@@ -102,37 +102,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="mt-8 pt-8 border-t border-gray-700 text-center">
-          <p>&copy; {new Date().getFullYear()} MiniGems. All rights reserved.</p>
-          <p className="text-lg text-gray-400 mt-2">
-            Developed by{" "}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              className="shiny-button z-50"
-            >
-              
-              {Array.from({ length: 6 }, (_, i) => (
-                <div key={i} className={`star star-${i + 1} `}>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 784.11 815.53"
-                    className="w-full h-full"
-                  >
-                    <path
-                      className="fil0"
-                      d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 
-                      207.96,29.37 371.12,197.68 392.05,407.74 
-                      20.93,-210.06 184.09,-378.37 392.05,-407.74 
-                      -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
-                    />
-                  </svg>
-                </div>
-              ))}
-            </a>
-          </p>
-        </div>
-      </div>
+        
     </footer>
   );
 };
