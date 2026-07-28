@@ -107,12 +107,11 @@ const Footer = () => {
           <p className="text-lg text-gray-400 mt-2">
             Developed by{" "}
             <a
-              href="https://www.linkedin.com/in/priyansh00soni/"
               target="_blank"
               rel="noopener noreferrer"
               className="shiny-button z-50"
             >
-              Priyansh
+              
               {Array.from({ length: 6 }, (_, i) => (
                 <div key={i} className={`star star-${i + 1} `}>
                   <svg
